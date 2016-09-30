@@ -1,0 +1,89 @@
+{
+"pins":
+  {
+  "1-COLLECTOR":
+    {	
+      "layout": 
+      {
+        "pad": "pin", 
+        "location": [0.0, 2.60]
+      }
+    },
+  "2-BASE":
+    {	
+      "layout": 
+      {
+        "pad": "pin", 
+        "location": [0.0, 0.0]
+      }
+    },
+    "3-EMITTER":
+    {	
+      "layout": 
+      {
+        "pad": "pin", 
+        "location": [0.0, -2.60]
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        
+      ]
+    },
+    "assembly":
+    {
+      "shapes":
+      [
+        {
+          "type": "rect",
+          "width": 6.10,
+          "height": 9.02
+        }
+      ]
+    }
+  },
+  "pads":
+  {
+    "pin":
+    {
+      "shapes":
+      [
+        {
+          "layers": ["top","bottom"],
+          "type": "circle",
+          "diameter": 1.5
+        }
+      ],
+      "drills":
+      [
+        {
+          "diameter": 0.7
+        }
+      ]
+    },
+    "pin1":
+    {
+      "shapes":
+      [
+        {
+          "layers": ["top","bottom"],
+          "type": "rect",
+          "width": 1.5,
+          "height": 1.5,
+          "radii": {"tl": 0, "tr": 0, "bl": 0.75, "br": 0}
+        }
+      ],
+      "drills":
+      [
+        {
+          "diameter": 0.7
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "components": {  
+    "R1": {
+      "footprint" : "resistor",
+      "layer": "top",
+      "location": [
+        0.0,
+        0.0
+      ],
+      "silkscreen": {
+        "refdef" : {
+          "show" : false
+        }
+      }
+    },
+    "R2": {
+      "footprint" : "resistor",
+      "layer": "top",
+      "location": [
+        -20.0,
+        0.0
+      ],
+      "silkscreen": {
+        "refdef" : {
+          "show" : false
+        }
+      }
+    },
+    "R3": {
+      "footprint" : "resistor",
+      "layer": "top",
+      "location": [
+        -30.0,
+        0.0
+      ],
+      "silkscreen": {
+        "refdef" : {
+          "show" : false
+        }
+      }
+    },
+    "R4": {
+      "footprint" : "resistor",
+      "layer": "top",
+      "location": [
+        0.0,
+        10.0
+      ],
+      "silkscreen": {
+        "refdef" : {
+          "show" : false
+        }
+      }
+    },
+    "R5": {
+      "footprint" : "resistor",
+      "layer": "top",
+      "location": [
+        -10.0,
+        10.0
+      ],
+      "silkscreen": {
+        "refdef" : {
+          "show" : false
+        }
+      }
+    },
+    "MIC": {
+      "footprint": "microphone", 
+      "layer": "top", 
+      "location": [
+        -10.0, 
+        0.0
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    },
+    "OP1": {
+      "footprint": "tlo82", 
+      "layer": "top", 
+      "location": [
+        0.0, 
+        -20.0
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    },
+    "IC1": {
+      "footprint": "flipflop", 
+      "layer": "top", 
+      "location": [
+        10.0, 
+        -30.0
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    },
+    "D1": {
+      "footprint": "diode", 
+      "layer": "top", 
+      "location": [
+        10.0, 
+        -10.0
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    },
+    "T1": {
+      "footprint": "bjt", 
+      "layer": "top", 
+      "location": [
+        10.0, 
+        -20.0
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    },
+    "C1": {
+      "footprint": "capacitor", 
+      "layer": "top", 
+      "location": [
+        10.0, 
+        -30.0
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }
+  }, 
+  "config": {
+    "name": "compass", 
+    "no-docs": false, 
+    "no-drill-index": false, 
+    "no-flashes": false, 
+    "no-layer-index": false, 
+    "rev": "first", 
+    "style-layout": "default", 
+    "units": "mm"
+  }, 
+  "distances": {
+    "from-pour-to": {
+      "drill": 0.4, 
+      "outline": 0.25, 
+      "pad": 0.25, 
+      "route": 0.25
+    }, 
+    "soldermask": {
+      "circle-buffer": 0.05, 
+      "path-scale": 1.05, 
+      "rect-buffer": 0.05
+    }, 
+    "solderpaste": {
+      "circle-buffer": -0.1, 
+      "path-scale": 0.9, 
+      "rect-buffer": -0.1
+    }
+  }, 
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        -27.733792, 
+        -18.588144
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Board details:\nName: The Cuttle\nRevision: first\nDescription: A cuttlefish-shaped 'shrimp' (shrimping.it) \nLicense: CERN Open Hardware Licence v1.2 \nBased on: https://github.com/embecosm/cuttlefish \nDesign by: Saar Drimer (saar@boldport.com), Boldport"
+    }, 
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        -25.822231, 
+        -34.823622
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimetre (mm)\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 1.6 mm\nMaterial: FR4 35/35 um copper\nSilkscreen: top and bottom, white\nSoldermask: top and bottom, blue\nSurface finish: lead-free\n\n* Do not add marking/logos without Boldport's authorisation\n* Remove silkscreen from pads unless specified otherwise\n* Boldport must approve plots before production\n"
+    }, 
+    "pcbmode": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.2mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.2mm", 
+      "location": [
+        -31.851771, 
+        -48.536478
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Designed using PCBmodE, an open source software\n     http://pcbmode.com\nStay updated:\n     @boldport @pcbmode http://boldport.com"
+    }
+  }, 
+  "drill-index": {
+    "location": [
+      45.846922, 
+      -5.4516062
+    ]
+  }, 
+  "drills": {}, 
+  "files": {
+    "routing_data": "cuttlefish_routing.json", 
+    "routing_svg": "cuttlefish.svg"
+  }, 
+  "gerber": {
+    "decimals": 6, 
+    "digits": 6, 
+    "min-segment-length": 0.05, 
+    "steps-per-segment": 100
+  }, 
+  "outline": {
+    "shape": {
+      "height": 21, 
+      "radii": {
+        "bl": 10.5, 
+        "br": 7, 
+        "tl": 7, 
+        "tr": 10.5
+      }, 
+      "type": "path", 
+      "value": "m 101.12226,49.888302 c 0,24.780087 -19.719331,44.868317 -44.04436,44.86832 -24.325031,0 -46.740959,-19.339177 -46.740959,-44.119266 0,-24.780089 22.415928,-45.6173746 46.740959,-45.6173746 24.325029,2.8e-6 44.04436,20.0882336 44.04436,44.8683206 z", 
+      "width": 65
+    }
+  }, 
+  "shapes": {
+    "PRS": {
+      "footprint": "pours", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ]
+    }, 
+    "SS": {
+      "footprint": "silkscreen", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ]
+    }
+  }, 
+  "soldermask": {
+    "pad_buffer": 0.1, 
+    "pad_scale_factor": 1.1
+  }, 
+  "vias": {
+    "default_via": "VIA"
+  }
+}

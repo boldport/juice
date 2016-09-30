@@ -1,0 +1,257 @@
+{
+  "components": {
+    "T1": {
+      "footprint": "SOT23MosFET", 
+      "layer": "top", 
+      "location": [
+        -9.11751, 
+        10.0024
+      ], 
+      "rotate": 315, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "USB1": {
+      "footprint": "USB", 
+      "layer": "top", 
+      "location": [
+        24.1504, 
+        -9.357897
+      ], 
+      "rotate": 0.0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "USBHeader": {
+      "footprint": "header-4pin", 
+      "layer": "top", 
+      "location": [
+        24.1504, 
+        -1.575433
+      ], 
+      "rotate": 0.0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "USBLED": {
+      "footprint": "1206", 
+      "layer": "top", 
+      "location": [
+        -8.79372, 
+        -4.641254
+      ], 
+      "rotate": 59.506198, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "USBSocket": {
+      "footprint": "header-4pin-sneaky", 
+      "layer": "top", 
+      "location": [
+        -9.741531, 
+        -16.515623
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "V1": {
+      "footprint": "via", 
+      "layer": "top", 
+      "location": [
+        -16.410422, 
+        11.567247
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "head1": {
+      "footprint": "pin-header", 
+      "layer": "top", 
+      "location": [
+        -12.635914, 
+        2.062078
+      ], 
+      "rotate": 284.118393, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "head2": {
+      "footprint": "pin-header", 
+      "layer": "top", 
+      "location": [
+        -6.879859, 
+        3.540698
+      ], 
+      "rotate": 48.731931, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "head3": {
+      "footprint": "pin-header", 
+      "layer": "top", 
+      "location": [
+        -15.751576, 
+        6.550744
+      ], 
+      "rotate": 327.138809, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }
+  }, 
+  "config": {
+    "name": "compass", 
+    "no-docs": false, 
+    "no-drill-index": false, 
+    "no-flashes": false, 
+    "no-layer-index": false, 
+    "rev": "first", 
+    "style-layout": "default", 
+    "units": "mm"
+  }, 
+  "distances": {
+    "from-pour-to": {
+      "drill": 0.4, 
+      "outline": 0.25, 
+      "pad": 0.25, 
+      "route": 0.25
+    }, 
+    "soldermask": {
+      "circle-buffer": 0.05, 
+      "path-scale": 1.05, 
+      "rect-buffer": 0.05
+    }, 
+    "solderpaste": {
+      "circle-buffer": -0.1, 
+      "path-scale": 0.9, 
+      "rect-buffer": -0.1
+    }
+  }, 
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        -27.733792, 
+        -26.588144
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Board details:\nName: powerBoard?\nRevision: first\nDescription: Putting some ideas down. A battery replacement board that can be powered from various sources. \nLicense: CERN Open Hardware Licence v1.2 \nDesign by: Kyle Jarvis"
+    }, 
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        -24.733792, 
+        -41.588144
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimetre (mm)\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 1.6 mm\nMaterial: FR4 35/35 um copper\nSilkscreen: top and bottom, white\nSoldermask: top and bottom, blue\nSurface finish: lead-free\n\n* Do not add marking/logos without Boldport's authorisation\n* Remove silkscreen from pads unless specified otherwise\n* Boldport must approve plots before production\n"
+    }, 
+    "pcbmode": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.2mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.2mm", 
+      "location": [
+        -27.733792, 
+        -54.823622
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Designed using PCBmodE, an open source software\n     http://pcbmode.com\nStay updated:\n     @boldport @pcbmode http://boldport.com"
+    }
+  }, 
+  "drill-index": {
+    "location": [
+      45.846922, 
+      -5.4516062
+    ]
+  }, 
+  "drills": {}, 
+  "files": {
+    "routing_data": "cuttlefish_routing.json", 
+    "routing_svg": "cuttlefish.svg"
+  }, 
+  "gerber": {
+    "decimals": 6, 
+    "digits": 6, 
+    "min-segment-length": 0.05, 
+    "steps-per-segment": 100
+  }, 
+  "outline": {
+    "shape": {
+      "height": 21, 
+      "radii": {
+        "bl": 10.5, 
+        "br": 7, 
+        "tl": 7, 
+        "tr": 10.5
+      }, 
+      "type": "path", 
+      "value": "m 30.351142,-0.15865045 c -1.616295,0 -2.917582,1.30128595 -2.917582,2.91758215 l 0,1.5715158 -1.346618,0 c -1.0532,0 -1.901142,0.8479418 -1.901142,1.9011416 l 0,5.0166109 c 0,1.0532 0.847942,1.901142 1.901142,1.901142 l 13.835504,0 c 1.0532,0 1.901139,-0.847942 1.901139,-1.901142 l 0,-5.0166109 c 0,-1.0531998 -0.847939,-1.9011416 -1.901139,-1.9011416 l -1.346621,0 0,-1.5715158 c 0,-1.6162962 -1.301284,-2.91758215 -2.917582,-2.91758215 l -5.307101,0 z M -15.044906,24.918899 -15.641911,23.865257 c 0.01545,-0.0077 0.03072,-0.01577 0.04581,-0.02416 0.549013,-0.324747 0.730821,-1.033066 0.406083,-1.582084 -0.324749,-0.549014 -1.033071,-0.730821 -1.582089,-0.40608 -0.01473,0.009 -0.02926,0.01829 -0.04357,0.02794 l -0.494335,-0.835729 c 0.01545,-0.0077 0.03072,-0.01576 0.04581,-0.02415 0.549014,-0.324748 0.730822,-1.033071 0.406081,-1.582089 -0.324748,-0.549013 -1.033069,-0.730821 -1.582088,-0.406081 -0.01473,0.009 -0.02926,0.0183 -0.04357,0.02794 l -0.494336,-0.835728 c 0.01547,-0.0077 0.03077,-0.01567 0.04588,-0.02404 0.549059,-0.324775 0.730845,-1.033178 0.406014,-1.582204 -0.324748,-0.549014 -1.033069,-0.73082 -1.582087,-0.40608 -0.01473,0.009 -0.02926,0.0183 -0.04357,0.02794 l -0.494336,-0.835728 c 0.01547,-0.0077 0.03077,-0.01567 0.04588,-0.02404 0.549059,-0.324774 0.730844,-1.033175 0.406014,-1.582202 -0.324748,-0.549013 -1.033069,-0.730821 -1.582087,-0.406081 -0.01473,0.009 -0.02926,0.0183 -0.04357,0.02794 l -0.494334,-0.835728 c 0.01547,-0.0077 0.03077,-0.01567 0.04588,-0.02404 0.549057,-0.324775 0.730842,-1.033175 0.406014,-1.582199 -0.324747,-0.549015 -1.03307,-0.730824 -1.582088,-0.406083 -0.01473,0.009 -0.02926,0.0183 -0.04357,0.02794 -0.206686,-0.34943 -0.414882,-0.6979172 -0.626926,-1.0441402 0,0 6.97684,-6.278468 10.256128,-13.5611829 5.1568155,-11.4523769 4.9730465,-20.9204109 4.9730465,-20.9204109 l 7.9985911,0 7.9985919,0 c 0,0 -0.1837696,9.468034 4.9730465,20.9204109 3.27928,7.2827229 10.25612,13.5611909 10.25612,13.5611909 -0.212043,0.346223 -0.42024,0.6947102 -0.626925,1.0441402 -0.01431,-0.0096 -0.02884,-0.01895 -0.04357,-0.02794 -0.54902,-0.324741 -1.257342,-0.142932 -1.582089,0.406083 -0.324828,0.549024 -0.143043,1.257424 0.406014,1.582199 0.01512,0.0084 0.03041,0.01637 0.04588,0.02404 l -0.494336,0.835724 c -0.01431,-0.0096 -0.02884,-0.01895 -0.04357,-0.02794 -0.549018,-0.324739 -1.257338,-0.142932 -1.582087,0.406082 -0.324829,0.549026 -0.143044,1.257427 0.406014,1.582202 0.01512,0.0084 0.03041,0.01637 0.04588,0.02404 l -0.494335,0.835727 c -0.01431,-0.0096 -0.02884,-0.01895 -0.04357,-0.02794 -0.549018,-0.324739 -1.257339,-0.142933 -1.582086,0.40608 -0.324831,0.549026 -0.143047,1.25743 0.406014,1.582204 0.01511,0.0084 0.03041,0.01637 0.04588,0.02404 L 16.7093,19.060768 c -0.01431,-0.0096 -0.02884,-0.01895 -0.04357,-0.02794 -0.549018,-0.324739 -1.257339,-0.142932 -1.582088,0.406082 -0.32474,0.549018 -0.142933,1.25734 0.406081,1.582088 0.01508,0.0084 0.03036,0.01645 0.04581,0.02415 l -0.494334,0.835729 c -0.01431,-0.0096 -0.02884,-0.01895 -0.04357,-0.02794 -0.549018,-0.324741 -1.257339,-0.142933 -1.582088,0.40608 -0.324738,0.549018 -0.142931,1.257338 0.406083,1.582085 0.01508,0.0084 0.03036,0.01645 0.04581,0.02416 l -0.597006,1.053641 -14.1576632,0.0064 z", 
+      "width": 65
+    }
+  }, 
+  "shapes": {
+    "PRS": {
+      "footprint": "pours", 
+      "layer": "top", 
+      "location": [
+        0.0, 
+        0
+      ]
+    }, 
+    "SS": {
+      "footprint": "silkscreen", 
+      "layer": "top", 
+      "location": [
+        0.0, 
+        0
+      ]
+    }
+  }, 
+  "soldermask": {
+    "pad_buffer": 0.1, 
+    "pad_scale_factor": 1.1
+  }, 
+  "vias": {
+    "default_via": "VIA"
+  }
+}
