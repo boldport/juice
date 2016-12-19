@@ -6,8 +6,7 @@
       "layout": 
       {
         "pad": "pad", 
-        "location": [-1.0795, 0],
-        "rotate": 180
+        "location": [-1.1, 0]
       }
     },
   "2":
@@ -15,7 +14,7 @@
       "layout": 
       {
         "pad": "pad", 
-        "location": [1.0795, 0],
+        "location": [1.1, 0],
         "rotate": 180
       }
     }
@@ -28,8 +27,8 @@
       [
         {
           "type": "rect",
-          "width": 0.3, 
-          "height": 1,
+          "width": 0.4, 
+          "height": 1.4,
           "location": [0, 0],
           "style": "fill"
         }
@@ -41,8 +40,17 @@
       [
         {
           "type": "rect",
+          "style": "stroke",
+          "stroke-width": 0.1,
           "width": 2.55,
           "height": 1.4
+        },
+        {
+          "type": "rect",
+          "style": "stroke",
+          "stroke-width": 0.1,
+          "width": 2,
+          "height": 1
         }
       ]
     }
@@ -56,8 +64,8 @@
         {
           "type": "rect",
 	  "layers": ["top"],
-	  "width": 1.542,
-	  "height": 1.143,
+	  "width": 1,
+	  "height": 1.4,
 	  "radii": {"tl": 0.25, "tr": 0, "bl": 0.25, "br": 0}
 	}
       ]
