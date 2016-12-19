@@ -1,5 +1,47 @@
 {
   "components": {
+    "1V5": {
+      "footprint": "header-3pin-sneaky", 
+      "layer": "top", 
+      "location": [
+        26.763446, 
+        6.374296
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "3V": {
+      "footprint": "header-3pin-sneaky", 
+      "layer": "top", 
+      "location": [
+        23.263446, 
+        6.374296
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "4V5": {
+      "footprint": "header-3pin-sneaky", 
+      "layer": "top", 
+      "location": [
+        19.763446, 
+        6.374296
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
     "A23Bat": {
       "footprint": "A23", 
       "layer": "top", 
@@ -36,6 +78,20 @@
         57.745161
       ], 
       "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "ADJ": {
+      "footprint": "header-3pin-sneaky", 
+      "layer": "top", 
+      "location": [
+        16.263446, 
+        6.374296
+      ], 
+      "rotate": 90, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -88,10 +144,10 @@
       "footprint": "0805-cap", 
       "layer": "top", 
       "location": [
-        13.880845, 
-        -17.923709
+        32.190038, 
+        -14.266735
       ], 
-      "rotate": 0, 
+      "rotate": 90, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -103,7 +159,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -0.611491
+        -0.047047
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -117,7 +173,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -0.61237
+        -0.047926
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -131,7 +187,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -3.431241
+        -2.866797
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -145,7 +201,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -3.43212
+        -2.867676
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -161,7 +217,7 @@
         0.414394, 
         -14.382826
       ], 
-      "rotate": 90, 
+      "rotate": -90, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -224,12 +280,40 @@
         }
       }
     }, 
-    "R1": {
-      "footprint": "0805", 
+    "J10": {
+      "footprint": "header-3pin", 
       "layer": "top", 
       "location": [
-        -63.834239, 
-        -4.569132
+        -5.868601, 
+        4.010749
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED1": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        13.467721, 
+        -18.172642
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED2": {
+      "footprint": "0805-led", 
+      "layer": "top", 
+      "location": [
+        13.032356, 
+        -13.824299
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -257,7 +341,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -14.710239
+        -14.145795
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -271,7 +355,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -14.711118
+        -14.146674
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -285,7 +369,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -6.250333
+        -5.685889
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -299,7 +383,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -6.251871
+        -5.687427
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -313,7 +397,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -11.889831
+        -11.325387
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -327,7 +411,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -11.891369
+        -11.326925
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -341,7 +425,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -9.070691
+        -8.506247
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -355,9 +439,37 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -9.071619
+        -8.507175
       ], 
       "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R7": {
+      "footprint": "0805", 
+      "layer": "top", 
+      "location": [
+        13.000577, 
+        -5.37753
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R7b": {
+      "footprint": "resistor_th", 
+      "layer": "top", 
+      "location": [
+        13.000577, 
+        -5.378458
+      ], 
+      "rotate": 90, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -368,66 +480,10 @@
       "footprint": "bourns-tc33x-pot", 
       "layer": "top", 
       "location": [
-        21.330723, 
-        12.709432
+        21.513446, 
+        13.83832
       ], 
       "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "RegHead1": {
-      "footprint": "header-3pin-sneaky", 
-      "layer": "top", 
-      "location": [
-        26.828434, 
-        5.809852
-      ], 
-      "rotate": 90, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "RegHead2": {
-      "footprint": "header-3pin-sneaky", 
-      "layer": "top", 
-      "location": [
-        16.028076, 
-        5.809852
-      ], 
-      "rotate": 90, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "RegHead3": {
-      "footprint": "header-3pin-sneaky", 
-      "layer": "top", 
-      "location": [
-        19.628196, 
-        5.809852
-      ], 
-      "rotate": 90, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "RegHead4": {
-      "footprint": "header-3pin-sneaky", 
-      "layer": "top", 
-      "location": [
-        23.228313, 
-        5.809852
-      ], 
-      "rotate": 90, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -532,20 +588,6 @@
         }
       }
     }, 
-    "USBLED": {
-      "footprint": "1206", 
-      "layer": "top", 
-      "location": [
-        -61.029187, 
-        -4.569132
-      ], 
-      "rotate": 90, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
     "V1": {
       "footprint": "via", 
       "layer": "top", 
@@ -629,7 +671,7 @@
       "layer": "bottom", 
       "location": [
         21.513446, 
-        -7.660206
+        -7.095762
       ], 
       "rotate": 180.0, 
       "silkscreen": {
@@ -694,8 +736,8 @@
       "footprint": "bananaJack", 
       "layer": "top", 
       "location": [
-        8.356803, 
-        -20.816376
+        7.862914, 
+        -20.498876
       ], 
       "silkscreen": {
         "refdef": {
@@ -707,8 +749,8 @@
       "footprint": "bananaJack", 
       "layer": "top", 
       "location": [
-        34.860445, 
-        -20.957488
+        35.107389, 
+        -20.357766
       ], 
       "silkscreen": {
         "refdef": {
@@ -721,7 +763,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -20.779604
+        -20.21516
       ], 
       "rotate": 0.0, 
       "silkscreen": {
