@@ -55,15 +55,16 @@
       "shapes":
       [
         {
-          "layers": ["top","bottom"],
-          "type": "circle",
-          "diameter": 1.2
-        }
-      ],
-      "drills":
-      [
-        {
-          "diameter": 0.9
+          "layers": ["top"],
+          "type": "rect",
+          "height": 4,
+          "width": 1.5,
+          "radii": {
+            "bl": 0.2, 
+            "br": 0.2, 
+            "tl": 0.2, 
+            "tr": 0.2
+          } 
         }
       ]
     }
