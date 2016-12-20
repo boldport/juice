@@ -141,5 +141,120 @@
       }
     }
   }, 
-  "vias": {}
+  "vias": {
+    "0205460aa": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "battery-contact-small", 
+      "layer": "top", 
+      "location": [
+        -32.165213, 
+        34.859842
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "32df6c140": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "battery-contact-small", 
+      "layer": "top", 
+      "location": [
+        15.235449, 
+        34.859842
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "6dd14cd2e": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "battery-contact-small", 
+      "layer": "top", 
+      "location": [
+        28.720929, 
+        34.859842
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "718a7ae4f": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "battery-contact-small", 
+      "layer": "top", 
+      "location": [
+        45.678519, 
+        -18.655997
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "a70c198a1": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "battery-contact-small", 
+      "layer": "top", 
+      "location": [
+        45.678519, 
+        -3.243466
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "c65782fbe": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "battery-contact-small", 
+      "layer": "top", 
+      "location": [
+        -45.649455, 
+        34.858877
+      ], 
+      "rotate": -45, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }
+  }
 }
