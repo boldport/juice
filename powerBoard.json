@@ -56,6 +56,34 @@
         }
       }
     }, 
+    "AA1": {
+      "footprint": "AA", 
+      "layer": "top", 
+      "location": [
+        -26.590396, 
+        -33.385417
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "AA2": {
+      "footprint": "AA", 
+      "layer": "top", 
+      "location": [
+        26.615666, 
+        -33.386077
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
     "AAA1": {
       "footprint": "AAA", 
       "layer": "top", 
@@ -84,20 +112,6 @@
         }
       }
     }, 
-    "AABat": {
-      "footprint": "AA", 
-      "layer": "top", 
-      "location": [
-        15.227565, 
-        57.745161
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
     "ADJ": {
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
@@ -106,34 +120,6 @@
         6.374296
       ], 
       "rotate": 90, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "Bat1Head1": {
-      "footprint": "header-6pin-sneaky-noreverse", 
-      "layer": "top", 
-      "location": [
-        -27.639947, 
-        52.720699
-      ], 
-      "rotate": 90.0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "Bat1Head2": {
-      "footprint": "header-6pin-sneaky-noreverse", 
-      "layer": "top", 
-      "location": [
-        15.227565, 
-        57.744507
-      ], 
-      "rotate": 90.0, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -224,48 +210,6 @@
         }
       }
     }, 
-    "Head1": {
-      "footprint": "header-6pin-sneaky-noreverse", 
-      "layer": "top", 
-      "location": [
-        0.414394, 
-        -14.382826
-      ], 
-      "rotate": -90, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "Head2": {
-      "footprint": "header-3pin", 
-      "layer": "top", 
-      "location": [
-        30.235746, 
-        -48.764474
-      ], 
-      "rotate": 180, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "Head3": {
-      "footprint": "header-6pin-sneaky-noreverse", 
-      "layer": "top", 
-      "location": [
-        -3.616101, 
-        52.00628
-      ], 
-      "rotate": 90.0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
     "IC2": {
       "footprint": "SOT23MosFET", 
       "layer": "top", 
@@ -294,6 +238,20 @@
         }
       }
     }, 
+    "J1": {
+      "footprint": "header-6pin-sneaky-noreverse", 
+      "layer": "top", 
+      "location": [
+        -45.590515, 
+        -2.930604
+      ], 
+      "rotate": 90.0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
     "J10": {
       "footprint": "header-3pin", 
       "layer": "top", 
@@ -302,6 +260,90 @@
         4.010749
       ], 
       "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "J2": {
+      "footprint": "header-6pin-sneaky-noreverse", 
+      "layer": "top", 
+      "location": [
+        -5.264212, 
+        17.629725
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "J3": {
+      "footprint": "header-6pin-sneaky-noreverse", 
+      "layer": "top", 
+      "location": [
+        0.414394, 
+        -14.382826
+      ], 
+      "rotate": -90, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "J40": {
+      "footprint": "header-3pin", 
+      "layer": "top", 
+      "location": [
+        30.235746, 
+        -48.764474
+      ], 
+      "rotate": 180, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "J5": {
+      "footprint": "header-6pin-sneaky-noreverse", 
+      "layer": "top", 
+      "location": [
+        -32.286934, 
+        -2.930604
+      ], 
+      "rotate": 90.0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "J6": {
+      "footprint": "header-6pin-sneaky-noreverse", 
+      "layer": "top", 
+      "location": [
+        -26.590396, 
+        -33.386027
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "J7": {
+      "footprint": "header-6pin-sneaky-noreverse", 
+      "layer": "top", 
+      "location": [
+        26.615666, 
+        -33.385418
+      ], 
+      "rotate": 0, 
       "silkscreen": {
         "refdef": {
           "show": false
