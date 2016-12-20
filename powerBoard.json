@@ -896,7 +896,8 @@
       "location": [
         0.0, 
         0.0
-      ]
+      ],
+      "show": false
     }, 
     "SS": {
       "footprint": "silkscreen", 

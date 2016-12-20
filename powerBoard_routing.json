@@ -161,6 +161,63 @@
         }
       }
     }, 
+    "0e0b78e45": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "battery-contact-large", 
+      "layer": "top", 
+      "location": [
+        43.939656, 
+        33.271099
+      ], 
+      "rotate": 45, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "1d192fc12": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "battery-contact-large", 
+      "layer": "top", 
+      "location": [
+        0.013126, 
+        33.18778
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "277da05af": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "battery-contact-large", 
+      "layer": "top", 
+      "location": [
+        43.941676, 
+        13.823584
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
     "32df6c140": {
       "assembly": {
         "refdef": {
@@ -218,19 +275,19 @@
         }
       }
     }, 
-    "a70c198a1": {
+    "bb535d140": {
       "assembly": {
         "refdef": {
           "show": false
         }
       }, 
-      "footprint": "battery-contact-small", 
+      "footprint": "battery-contact-large", 
       "layer": "top", 
       "location": [
-        45.678519, 
-        -3.243466
+        -16.429081, 
+        33.18778
       ], 
-      "rotate": 90, 
+      "rotate": 0, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -250,6 +307,25 @@
         34.858877
       ], 
       "rotate": -45, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "ef4cc249f": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "battery-contact-small", 
+      "layer": "top", 
+      "location": [
+        45.678519, 
+        -3.243466
+      ], 
+      "rotate": 90, 
       "silkscreen": {
         "refdef": {
           "show": false
