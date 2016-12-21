@@ -210,6 +210,20 @@
         }
       }
     }, 
+    "CR2032": {
+      "footprint": "CR2032", 
+      "layer": "top", 
+      "location": [
+        -14.639799, 
+        -14.617862
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
     "IC2": {
       "footprint": "SOT23MosFET", 
       "layer": "top", 
