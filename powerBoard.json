@@ -1058,6 +1058,14 @@
     }
   }, 
   "shapes": {
+    "IN-SM": {
+      "footprint": "in-contact-sm", 
+      "layer": "top", 
+      "location": [
+        21.172531, 
+        -5.761818
+      ]
+    }, 
     "PRS": {
       "footprint": "pours", 
       "layer": "top", 
@@ -1066,14 +1074,6 @@
         0.0
       ], 
       "show": false
-    }, 
-    "SS": {
-      "footprint": "silkscreen", 
-      "layer": "top", 
-      "location": [
-        -79.022217, 
-        50.800005
-      ]
     }
   }, 
   "soldermask": {
