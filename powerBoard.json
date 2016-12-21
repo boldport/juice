@@ -5,7 +5,7 @@
       "layer": "top", 
       "location": [
         26.763446, 
-        6.374296
+        10.889851
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -19,7 +19,7 @@
       "layer": "top", 
       "location": [
         23.263446, 
-        6.374296
+        10.889851
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -33,7 +33,7 @@
       "layer": "top", 
       "location": [
         19.763446, 
-        6.374296
+        10.889851
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -117,7 +117,7 @@
       "layer": "top", 
       "location": [
         16.263446, 
-        6.374296
+        10.889851
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -158,8 +158,8 @@
       "footprint": "0805-cap", 
       "layer": "top", 
       "location": [
-        21.513446, 
-        -0.047047
+        21.511665, 
+        -2.869269
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -173,7 +173,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -0.047926
+        -2.870148
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -186,8 +186,8 @@
       "footprint": "0805-cap", 
       "layer": "top", 
       "location": [
-        21.513446, 
-        -2.866797
+        21.511665, 
+        -5.689019
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -201,7 +201,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -2.867676
+        -5.689898
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -453,7 +453,7 @@
       "layer": "top", 
       "location": [
         13.467721, 
-        -18.172642
+        -17.608198
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -494,7 +494,7 @@
       "footprint": "0805", 
       "layer": "top", 
       "location": [
-        21.513446, 
+        21.511665, 
         -14.145795
       ], 
       "rotate": 0, 
@@ -523,7 +523,7 @@
       "layer": "top", 
       "location": [
         21.513446, 
-        -5.685889
+        2.780777
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -536,8 +536,8 @@
       "footprint": "resistor_th", 
       "layer": "top", 
       "location": [
-        21.513446, 
-        -5.687427
+        21.511665, 
+        2.779239
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -564,7 +564,7 @@
       "footprint": "resistor_th", 
       "layer": "top", 
       "location": [
-        21.513446, 
+        21.511665, 
         -11.326925
       ], 
       "rotate": 0, 
@@ -578,7 +578,7 @@
       "footprint": "0805", 
       "layer": "top", 
       "location": [
-        21.513446, 
+        21.511665, 
         -8.506247
       ], 
       "rotate": 0, 
@@ -630,14 +630,56 @@
         }
       }
     }, 
+    "R8": {
+      "footprint": "0805", 
+      "layer": "top", 
+      "location": [
+        21.513446, 
+        -0.053531
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R8b": {
+      "footprint": "resistor_th", 
+      "layer": "top", 
+      "location": [
+        21.511665, 
+        -0.053531
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "REG-EN": {
+      "footprint": "header-3pin-sneaky", 
+      "layer": "top", 
+      "location": [
+        39.988105, 
+        3.02558
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
     "RTrim": {
       "footprint": "bourns-tc33x-pot", 
       "layer": "top", 
       "location": [
-        21.513446, 
-        13.83832
+        30.906765, 
+        -9.452883
       ], 
-      "rotate": 0, 
+      "rotate": 180, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -796,7 +838,7 @@
       "footprint": "ST-PPAK", 
       "layer": "bottom", 
       "location": [
-        21.513446, 
+        21.511665, 
         -7.095762
       ], 
       "rotate": 180.0, 
@@ -837,7 +879,7 @@
       "layer": "top", 
       "location": [
         7.66777, 
-        0.955614
+        1.055394
       ], 
       "silkscreen": {
         "refdef": {
@@ -863,7 +905,7 @@
       "layer": "top", 
       "location": [
         7.862914, 
-        -20.498876
+        -20.357766
       ], 
       "silkscreen": {
         "refdef": {
@@ -888,7 +930,7 @@
       "footprint": "micro-usb-socket-multicomp-MC001009", 
       "layer": "top", 
       "location": [
-        21.513446, 
+        21.511665, 
         -20.21516
       ], 
       "rotate": 0.0, 
