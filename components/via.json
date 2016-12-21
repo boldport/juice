@@ -1,67 +1,35 @@
 {
 "pins":
   {
-  "1":
+  "VIA":
     {	
       "layout": 
       {
-        "pad": "pin", 
-        "location": [0.0, 0.0]
+        "pad": "via", 
+        "location": [0, 0]
       }
-    }
-  },
-  "layout":
-  {
-    "silkscreen":
-    {
-      "shapes":
-      [
-        
-      ]
-    },
-    "assembly":
-    {
-      "shapes":
-      [
-        
-      ]
     }
   },
   "pads":
   {
-    "pin":
+    "via":
     {
       "shapes":
       [
-        {
-          "layers": ["top","bottom"],
+	{
           "type": "circle",
-          "diameter": 1.5
+	  "layers": ["top", "internal", "bottom"],
+	  "style": "fill",
+          "diameter": 0.9,
+          "buffer-to-pour": 0.151,
+          "soldermask": {},
+          "solderpaste": {}
         }
       ],
       "drills":
       [
         {
-          "diameter": 0.7
-        }
-      ]
-    },
-    "pin1":
-    {
-      "shapes":
-      [
-        {
-          "layers": ["top","bottom"],
-          "type": "rect",
-          "width": 1.5,
-          "height": 1.5,
-          "radii": {"tl": 0, "tr": 0, "bl": 0.75, "br": 0}
-        }
-      ],
-      "drills":
-      [
-        {
-          "diameter": 0.7
+          "diameter": 0.50
         }
       ]
     }
