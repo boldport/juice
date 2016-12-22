@@ -1,0 +1,25 @@
+{
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "layers": ["top"],
+          "font-family": "UbuntuMono-R-webfont", 
+          "location": [
+            0, 
+            0
+          ], 
+          "font-size": "2mm",
+          "rotate": 90,
+          "style": "fill",
+          "line-height": "2.6mm", 
+          "type": "text", 
+          "value": "Vout\ngnd\nVout"
+        }
+      ]
+    }
+  }  
+}
