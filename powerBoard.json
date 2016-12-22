@@ -5,7 +5,7 @@
       "layer": "top", 
       "location": [
         26.763446, 
-        10.889851
+        10.640401
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -24,7 +24,7 @@
       "layer": "top", 
       "location": [
         23.263446, 
-        10.889851
+        10.640401
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -43,7 +43,7 @@
       "layer": "top", 
       "location": [
         19.763446, 
-        10.889851
+        10.640401
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -132,7 +132,7 @@
       "layer": "top", 
       "location": [
         16.263446, 
-        10.889851
+        10.640401
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -286,13 +286,18 @@
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
       "location": [
-        -45.590515, 
-        4.452512
+        21.511665, 
+        25.593509
       ], 
-      "rotate": 90.0, 
+      "rotate": 0, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            -5.0, 
+            0
+          ], 
+          "show": true
         }
       }
     }, 
@@ -318,20 +323,6 @@
         -10.298931
       ], 
       "rotate": 90.0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "J11": {
-      "footprint": "header-3pin-sneaky", 
-      "layer": "top", 
-      "location": [
-        21.379574, 
-        25.593509
-      ], 
-      "rotate": 0, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -370,6 +361,39 @@
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
       "location": [
+        21.511665, 
+        18.805572
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "font-size": "1.6", 
+          "location": [
+            -5.0, 
+            0
+          ], 
+          "show": true
+        }
+      }
+    }, 
+    "J20": {
+      "footprint": "header-3pin-sneaky", 
+      "layer": "top", 
+      "location": [
+        -45.590515, 
+        4.452512
+      ], 
+      "rotate": 90.0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "J21": {
+      "footprint": "header-3pin-sneaky", 
+      "layer": "top", 
+      "location": [
         -5.264212, 
         17.629725
       ], 
@@ -398,8 +422,8 @@
       "footprint": "header-3pin", 
       "layer": "top", 
       "location": [
-        30.235746, 
-        -48.764474
+        -59.652032, 
+        -29.432252
       ], 
       "rotate": 180, 
       "silkscreen": {
@@ -514,6 +538,114 @@
         -13.824299
       ], 
       "rotate": 180, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "MH1": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "2mm-plated-hole", 
+      "layer": "top", 
+      "location": [
+        35.881856, 
+        -2.99276
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "MH2": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "2mm-plated-hole", 
+      "layer": "top", 
+      "location": [
+        7.145036, 
+        -2.993419
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "MH3": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "1p5mm-plated-hole", 
+      "layer": "top", 
+      "location": [
+        26.497696, 
+        22.220538
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "MH4": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "1p5mm-plated-hole", 
+      "layer": "top", 
+      "location": [
+        16.490868, 
+        22.221197
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "MH5": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "1p5mm-plated-hole", 
+      "layer": "top", 
+      "location": [
+        36.446026, 
+        -6.773333
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "MH6": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "1p5mm-plated-hole", 
+      "layer": "top", 
+      "location": [
+        6.692207, 
+        -6.773333
+      ], 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -921,8 +1053,8 @@
       "footprint": "bigVia", 
       "layer": "top", 
       "location": [
-        -124.45313, 
-        -66.227944
+        -59.68313, 
+        -23.894611
       ], 
       "silkscreen": {
         "refdef": {
@@ -934,8 +1066,8 @@
       "footprint": "bigVia", 
       "layer": "top", 
       "location": [
-        -100.10346, 
-        -65.97949
+        -62.109294, 
+        -7.841712
       ], 
       "silkscreen": {
         "refdef": {
@@ -1132,7 +1264,7 @@
       "layer": "top", 
       "location": [
         21.439367, 
-        16.262599
+        15.863479
       ], 
       "show": true
     }, 
@@ -1148,8 +1280,8 @@
       "footprint": "out-names", 
       "layer": "top", 
       "location": [
-        21.439367, 
-        21.704891
+        21.511665, 
+        22.228738
       ], 
       "show": true
     }, 
