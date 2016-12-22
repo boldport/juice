@@ -10,7 +10,12 @@
       "rotate": 90, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            5.2, 
+            0
+          ], 
+          "show": true
         }
       }
     }, 
@@ -24,7 +29,12 @@
       "rotate": 90, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            5.2, 
+            0
+          ], 
+          "show": true
         }
       }
     }, 
@@ -38,7 +48,12 @@
       "rotate": 90, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            5.2, 
+            0
+          ], 
+          "show": true
         }
       }
     }, 
@@ -122,7 +137,12 @@
       "rotate": 90, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            5.2, 
+            0
+          ], 
+          "show": true
         }
       }
     }, 
@@ -133,7 +153,7 @@
         29.828889, 
         -18.195515
       ], 
-      "rotate": 0, 
+      "rotate": 180, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -147,7 +167,7 @@
         32.190038, 
         -14.266735
       ], 
-      "rotate": 90, 
+      "rotate": -90, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -164,7 +184,12 @@
       "rotate": 0, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            -3.2, 
+            0.8
+          ], 
+          "show": true
         }
       }
     }, 
@@ -192,7 +217,12 @@
       "rotate": 0, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            -3.2, 
+            0.8
+          ], 
+          "show": true
         }
       }
     }, 
@@ -316,6 +346,20 @@
         -18.463868
       ], 
       "rotate": 180, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "J17": {
+      "footprint": "solder-blob-jumper", 
+      "layer": "top", 
+      "location": [
+        12.310355, 
+        -10.905592
+      ], 
+      "rotate": 0, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -469,7 +513,7 @@
         13.032356, 
         -13.824299
       ], 
-      "rotate": 0, 
+      "rotate": 180, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -500,7 +544,12 @@
       "rotate": 0, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            -3.2, 
+            0.8
+          ], 
+          "show": true
         }
       }
     }, 
@@ -528,7 +577,12 @@
       "rotate": 0, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            -3.2, 
+            0.8
+          ], 
+          "show": true
         }
       }
     }, 
@@ -556,7 +610,12 @@
       "rotate": 0, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            -3.2, 
+            0.8
+          ], 
+          "show": true
         }
       }
     }, 
@@ -584,7 +643,12 @@
       "rotate": 0, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            -3.2, 
+            0.8
+          ], 
+          "show": true
         }
       }
     }, 
@@ -606,8 +670,8 @@
       "footprint": "0805", 
       "layer": "top", 
       "location": [
-        13.000577, 
-        -5.37753
+        2.478174, 
+        -1.379017
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -620,8 +684,8 @@
       "footprint": "resistor_th", 
       "layer": "top", 
       "location": [
-        13.000577, 
-        -5.378458
+        2.478174, 
+        -1.379945
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -640,7 +704,12 @@
       "rotate": 0, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            -3.2, 
+            0.8
+          ], 
+          "show": true
         }
       }
     }, 
@@ -662,8 +731,8 @@
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
       "location": [
-        39.988105, 
-        3.02558
+        12.585945, 
+        -4.925085
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -1058,6 +1127,15 @@
     }
   }, 
   "shapes": {
+    "CHS": {
+      "footprint": "choose-one", 
+      "layer": "top", 
+      "location": [
+        21.439367, 
+        16.262599
+      ], 
+      "show": true
+    }, 
     "IN-SM": {
       "footprint": "in-contact-sm", 
       "layer": "top", 
@@ -1066,12 +1144,21 @@
         -5.761818
       ]
     }, 
+    "OUT": {
+      "footprint": "out-names", 
+      "layer": "top", 
+      "location": [
+        21.439367, 
+        21.704891
+      ], 
+      "show": true
+    }, 
     "PRS": {
       "footprint": "pours", 
       "layer": "top", 
       "location": [
-        0.0, 
-        0.0
+        0, 
+        0
       ], 
       "show": false
     }
