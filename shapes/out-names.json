@@ -17,7 +17,7 @@
           "style": "fill",
           "line-height": "2.6mm", 
           "type": "text", 
-          "value": "Vout\ngnd\nVout"
+          "value": "Vo\nGND\nVo"
         }
       ]
     }
