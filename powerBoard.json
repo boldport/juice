@@ -156,7 +156,13 @@
       "rotate": 180, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            1.640503, 
+            2.675966
+          ], 
+          "rotate": 180, 
+          "show": true
         }
       }
     }, 
@@ -164,13 +170,18 @@
       "footprint": "0805-cap", 
       "layer": "top", 
       "location": [
-        32.190038, 
-        -14.266735
+        30.818867, 
+        -14.341139
       ], 
-      "rotate": -90, 
+      "rotate": 0, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            -0.074405, 
+            1.424317
+          ], 
+          "show": true
         }
       }
     }, 
@@ -251,6 +262,45 @@
       "silkscreen": {
         "refdef": {
           "show": false
+        }
+      }
+    }, 
+    "D1": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        13.467721, 
+        -17.608198
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "font-size": "1.6", 
+          "location": [
+            1.602846, 
+            -3.318113
+          ], 
+          "show": true
+        }
+      }
+    }, 
+    "D2": {
+      "footprint": "0805-led", 
+      "layer": "top", 
+      "location": [
+        12.882036, 
+        -13.523659
+      ], 
+      "rotate": 180, 
+      "silkscreen": {
+        "refdef": {
+          "font-size": "1.6", 
+          "location": [
+            3.135687, 
+            0.0
+          ], 
+          "rotate": 180, 
+          "show": true
         }
       }
     }, 
@@ -353,7 +403,12 @@
       "rotate": 0, 
       "silkscreen": {
         "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            -1.843652, 
+            0
+          ], 
+          "show": true
         }
       }
     }, 
@@ -408,7 +463,7 @@
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
       "location": [
-        0.414394, 
+        0.244326, 
         -14.382826
       ], 
       "rotate": -90, 
@@ -516,31 +571,22 @@
         }
       }
     }, 
-    "LED1": {
-      "footprint": "led-5mm", 
+    "LDOEN": {
+      "footprint": "header-3pin-sneaky", 
       "layer": "top", 
       "location": [
-        13.467721, 
-        -17.608198
+        12.585945, 
+        -4.925085
       ], 
-      "rotate": 0, 
+      "rotate": 90, 
       "silkscreen": {
         "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "LED2": {
-      "footprint": "0805-led", 
-      "layer": "top", 
-      "location": [
-        13.032356, 
-        -13.824299
-      ], 
-      "rotate": 180, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
+          "font-size": "1.6", 
+          "location": [
+            -6.084367, 
+            0.0
+          ], 
+          "show": true
         }
       }
     }, 
@@ -802,8 +848,8 @@
       "footprint": "0805", 
       "layer": "top", 
       "location": [
-        2.478174, 
-        -1.379017
+        -68.571275, 
+        -18.382906
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -816,8 +862,8 @@
       "footprint": "resistor_th", 
       "layer": "top", 
       "location": [
-        2.478174, 
-        -1.379945
+        -68.571275, 
+        -18.383834
       ], 
       "rotate": 90, 
       "silkscreen": {
@@ -853,34 +899,6 @@
         -0.053531
       ], 
       "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "REG-EN": {
-      "footprint": "header-3pin-sneaky", 
-      "layer": "top", 
-      "location": [
-        12.585945, 
-        -4.925085
-      ], 
-      "rotate": 90, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "RTrim": {
-      "footprint": "bourns-tc33x-pot", 
-      "layer": "top", 
-      "location": [
-        30.906765, 
-        -9.452883
-      ], 
-      "rotate": 180, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -953,6 +971,28 @@
       "rotate": 0, 
       "silkscreen": {
         "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "USB": {
+      "footprint": "micro-usb-socket-multicomp-MC001009", 
+      "layer": "top", 
+      "location": [
+        21.511665, 
+        -20.21516
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "font-size": "1.6", 
+          "location": [
+            -0.021259, 
+            1.466834
+          ], 
+          "show": false
+        }, 
+        "shapes": {
           "show": false
         }
       }
@@ -1035,6 +1075,26 @@
         }
       }
     }, 
+    "VR1": {
+      "footprint": "bourns-tc33x-pot", 
+      "layer": "top", 
+      "location": [
+        30.906765, 
+        -9.452883
+      ], 
+      "rotate": 180, 
+      "silkscreen": {
+        "refdef": {
+          "font-size": "1.6", 
+          "location": [
+            0, 
+            -3.844818
+          ], 
+          "rotate": 180, 
+          "show": true
+        }
+      }
+    }, 
     "VReg": {
       "footprint": "ST-PPAK", 
       "layer": "bottom", 
@@ -1050,11 +1110,16 @@
       }
     }, 
     "bigVia1": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
       "footprint": "bigVia", 
       "layer": "top", 
       "location": [
-        -59.68313, 
-        -23.894611
+        -46.700907, 
+        24.286699
       ], 
       "silkscreen": {
         "refdef": {
@@ -1063,11 +1128,16 @@
       }
     }, 
     "bigVia2": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
       "footprint": "bigVia", 
       "layer": "top", 
       "location": [
-        -62.109294, 
-        -7.841712
+        -26.549292, 
+        24.286699
       ], 
       "silkscreen": {
         "refdef": {
@@ -1076,6 +1146,11 @@
       }
     }, 
     "bigVia3": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
       "footprint": "bigVia", 
       "layer": "top", 
       "location": [
@@ -1089,6 +1164,11 @@
       }
     }, 
     "bigVia4": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
       "footprint": "bigVia", 
       "layer": "top", 
       "location": [
@@ -1102,6 +1182,11 @@
       }
     }, 
     "jack1": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
       "footprint": "bananaJack", 
       "layer": "top", 
       "location": [
@@ -1115,26 +1200,17 @@
       }
     }, 
     "jack2": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
       "footprint": "bananaJack", 
       "layer": "top", 
       "location": [
         35.107389, 
         -20.357766
       ], 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "microUSB": {
-      "footprint": "micro-usb-socket-multicomp-MC001009", 
-      "layer": "top", 
-      "location": [
-        21.511665, 
-        -20.21516
-      ], 
-      "rotate": 0.0, 
       "silkscreen": {
         "refdef": {
           "show": false
