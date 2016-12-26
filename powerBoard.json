@@ -57,7 +57,7 @@
         }
       }
     }, 
-    "A23Bat": {
+    "A23": {
       "footprint": "A23", 
       "layer": "top", 
       "location": [
@@ -1335,6 +1335,53 @@
     }
   }, 
   "shapes": {
+    "A23-PRS": {
+      "footprint": "a23-pour", 
+      "layer": "top", 
+      "location": [
+        -5.264212, 
+        17.62972
+      ], 
+      "show": true
+    }, 
+    "AA1-PRS": {
+      "footprint": "aa-pour", 
+      "layer": "top", 
+      "location": [
+        -26.590396, 
+        -33.385417
+      ], 
+      "show": true
+    }, 
+    "AA2-PRS": {
+      "footprint": "aa-pour", 
+      "layer": "top", 
+      "location": [
+        26.615666, 
+        -33.386077
+      ], 
+      "show": true
+    }, 
+    "AAA1-PRS": {
+      "footprint": "aaa-pour", 
+      "layer": "top", 
+      "location": [
+        -45.590515, 
+        -2.930604
+      ], 
+      "rotate": 90, 
+      "show": true
+    }, 
+    "AAA2-PRS": {
+      "footprint": "aaa-pour", 
+      "layer": "top", 
+      "location": [
+        -32.286934, 
+        -2.930604
+      ], 
+      "rotate": 90, 
+      "show": true
+    }, 
     "CHOOSE": {
       "footprint": "the-chooser", 
       "layer": "top", 
