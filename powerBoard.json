@@ -304,34 +304,6 @@
         }
       }
     }, 
-    "IC2": {
-      "footprint": "SOT23MosFET", 
-      "layer": "top", 
-      "location": [
-        -55.419091, 
-        -4.569132
-      ], 
-      "rotate": 90, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "IC5": {
-      "footprint": "SOT23MosFET", 
-      "layer": "top", 
-      "location": [
-        -66.639286, 
-        -4.569132
-      ], 
-      "rotate": 270.0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
     "J1": {
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
@@ -373,20 +345,6 @@
         -10.298931
       ], 
       "rotate": 90.0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "J16": {
-      "footprint": "header-3pin-sneaky", 
-      "layer": "top", 
-      "location": [
-        -96.958122, 
-        -18.463868
-      ], 
-      "rotate": 180, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -467,20 +425,6 @@
         -14.382826
       ], 
       "rotate": -90, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "J40": {
-      "footprint": "header-3pin", 
-      "layer": "top", 
-      "location": [
-        -59.652032, 
-        -29.432252
-      ], 
-      "rotate": 180, 
       "silkscreen": {
         "refdef": {
           "show": false
@@ -698,20 +642,6 @@
         }
       }
     }, 
-    "R2": {
-      "footprint": "0805", 
-      "layer": "top", 
-      "location": [
-        -58.22414, 
-        -4.366933
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
     "R3": {
       "footprint": "0805", 
       "layer": "top", 
@@ -844,34 +774,6 @@
         }
       }
     }, 
-    "R7": {
-      "footprint": "0805", 
-      "layer": "top", 
-      "location": [
-        -68.571275, 
-        -18.382906
-      ], 
-      "rotate": 90, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R7b": {
-      "footprint": "resistor_th", 
-      "layer": "top", 
-      "location": [
-        -68.571275, 
-        -18.383834
-      ], 
-      "rotate": 90, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
     "R8": {
       "footprint": "0805", 
       "layer": "top", 
@@ -905,76 +807,6 @@
         }
       }
     }, 
-    "S1": {
-      "footprint": "DIPSwitch", 
-      "layer": "top", 
-      "location": [
-        -61.781431, 
-        4.732481
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "SBJP10": {
-      "footprint": "SJP1", 
-      "layer": "top", 
-      "location": [
-        -91.871646, 
-        -26.018515
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "SBJP7": {
-      "footprint": "SJP1", 
-      "layer": "top", 
-      "location": [
-        -87.989476, 
-        -26.018515
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "SBJP8": {
-      "footprint": "SJP1", 
-      "layer": "top", 
-      "location": [
-        -131.16955, 
-        -14.616049
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "SBJP9": {
-      "footprint": "SJP1", 
-      "layer": "top", 
-      "location": [
-        -135.05173, 
-        -14.616049
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
     "USB": {
       "footprint": "micro-usb-socket-multicomp-MC001009", 
       "layer": "top", 
@@ -993,84 +825,6 @@
           "show": false
         }, 
         "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "V1": {
-      "footprint": "via", 
-      "layer": "top", 
-      "location": [
-        -117.66771, 
-        -22.137033
-      ], 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "V2": {
-      "footprint": "via", 
-      "layer": "top", 
-      "location": [
-        -124.12126, 
-        -53.671222
-      ], 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "V3": {
-      "footprint": "via", 
-      "layer": "top", 
-      "location": [
-        -100.66626, 
-        -53.671222
-      ], 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "V4": {
-      "footprint": "via", 
-      "layer": "top", 
-      "location": [
-        -107.11981, 
-        -22.137034
-      ], 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "V5": {
-      "footprint": "via", 
-      "layer": "top", 
-      "location": [
-        -113.69599, 
-        -22.834731
-      ], 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "V6": {
-      "footprint": "via", 
-      "layer": "top", 
-      "location": [
-        -110.64252, 
-        -23.284354
-      ], 
-      "silkscreen": {
-        "refdef": {
           "show": false
         }
       }
@@ -1408,6 +1162,15 @@
         21.172531, 
         -5.761818
       ]
+    }, 
+    "INFO": {
+      "footprint": "board-info", 
+      "layer": "bottom", 
+      "location": [
+        -37.065068, 
+        24.288001
+      ], 
+      "show": true
     }, 
     "OUT": {
       "footprint": "out-names", 
