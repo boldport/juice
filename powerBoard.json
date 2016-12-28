@@ -4,7 +4,7 @@
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
       "location": [
-        26.763446, 
+        23.263446, 
         10.640401
       ], 
       "rotate": 90, 
@@ -23,7 +23,7 @@
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
       "location": [
-        23.263446, 
+        19.763446, 
         10.640401
       ], 
       "rotate": 90, 
@@ -42,7 +42,7 @@
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
       "location": [
-        19.763446, 
+        16.263446, 
         10.640401
       ], 
       "rotate": 90, 
@@ -131,7 +131,7 @@
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
       "location": [
-        16.263446, 
+        26.763446, 
         10.640401
       ], 
       "rotate": 90, 
@@ -147,6 +147,72 @@
       }
     }, 
     "C1": {
+      "footprint": "0805-cap", 
+      "layer": "top", 
+      "location": [
+        21.511665, 
+        -2.869269
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "font-size": "1.6", 
+          "location": [
+            -3.2, 
+            0.8
+          ], 
+          "show": true
+        }
+      }
+    }, 
+    "C1b": {
+      "footprint": "resistor_th", 
+      "layer": "top", 
+      "location": [
+        21.513446, 
+        -2.870148
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "C2": {
+      "footprint": "0805-cap", 
+      "layer": "top", 
+      "location": [
+        21.511665, 
+        -5.689019
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "font-size": "1.6", 
+          "location": [
+            -3.2, 
+            0.8
+          ], 
+          "show": true
+        }
+      }
+    }, 
+    "C2b": {
+      "footprint": "resistor_th", 
+      "layer": "top", 
+      "location": [
+        21.513446, 
+        -5.689898
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "C3": {
       "footprint": "round-cap", 
       "layer": "top", 
       "location": [
@@ -166,12 +232,12 @@
         }
       }
     }, 
-    "C2": {
+    "C4": {
       "footprint": "0805-cap", 
       "layer": "top", 
       "location": [
         30.818867, 
-        -14.341139
+        -14.596235
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -182,72 +248,6 @@
             1.424317
           ], 
           "show": true
-        }
-      }
-    }, 
-    "C5": {
-      "footprint": "0805-cap", 
-      "layer": "top", 
-      "location": [
-        21.511665, 
-        -2.869269
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "font-size": "1.6", 
-          "location": [
-            -3.2, 
-            0.8
-          ], 
-          "show": true
-        }
-      }
-    }, 
-    "C5b": {
-      "footprint": "resistor_th", 
-      "layer": "top", 
-      "location": [
-        21.513446, 
-        -2.870148
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "C6": {
-      "footprint": "0805-cap", 
-      "layer": "top", 
-      "location": [
-        21.511665, 
-        -5.689019
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "font-size": "1.6", 
-          "location": [
-            -3.2, 
-            0.8
-          ], 
-          "show": true
-        }
-      }
-    }, 
-    "C6b": {
-      "footprint": "resistor_th", 
-      "layer": "top", 
-      "location": [
-        21.513446, 
-        -5.689898
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
         }
       }
     }, 
@@ -351,25 +351,6 @@
         }
       }
     }, 
-    "J17": {
-      "footprint": "solder-blob-jumper", 
-      "layer": "top", 
-      "location": [
-        12.310355, 
-        -10.905592
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "font-size": "1.6", 
-          "location": [
-            -1.843652, 
-            0
-          ], 
-          "show": true
-        }
-      }
-    }, 
     "J2": {
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
@@ -418,6 +399,25 @@
       }
     }, 
     "J3": {
+      "footprint": "solder-blob-jumper", 
+      "layer": "top", 
+      "location": [
+        12.310355, 
+        -10.905592
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "font-size": "1.6", 
+          "location": [
+            -2.268822, 
+            0
+          ], 
+          "show": true
+        }
+      }
+    }, 
+    "J33": {
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
       "location": [
@@ -515,6 +515,29 @@
         }
       }
     }, 
+    "LDFPT-TR": {
+      "footprint": "ST-PPAK", 
+      "layer": "bottom", 
+      "location": [
+        21.511665, 
+        -7.095762
+      ], 
+      "rotate": 180.0, 
+      "silkscreen": {
+        "refdef": {
+          "font-size": "1.6", 
+          "location": [
+            0.0, 
+            -5.08
+          ], 
+          "rotate": 180, 
+          "show": true
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
     "LDOEN": {
       "footprint": "header-3pin-sneaky", 
       "layer": "top", 
@@ -545,6 +568,19 @@
       "location": [
         35.881856, 
         -2.99276
+      ], 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "MH10": {
+      "footprint": "selector-hole", 
+      "layer": "top", 
+      "location": [
+        -20.393062, 
+        3.906891
       ], 
       "silkscreen": {
         "refdef": {
@@ -642,40 +678,7 @@
         }
       }
     }, 
-    "R3": {
-      "footprint": "0805", 
-      "layer": "top", 
-      "location": [
-        21.511665, 
-        -14.145795
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "font-size": "1.6", 
-          "location": [
-            -3.2, 
-            0.8
-          ], 
-          "show": true
-        }
-      }
-    }, 
-    "R3b": {
-      "footprint": "resistor_th", 
-      "layer": "top", 
-      "location": [
-        21.513446, 
-        -14.146674
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R4": {
+    "R1": {
       "footprint": "0805", 
       "layer": "top", 
       "location": [
@@ -694,7 +697,7 @@
         }
       }
     }, 
-    "R4b": {
+    "R1b": {
       "footprint": "resistor_th", 
       "layer": "top", 
       "location": [
@@ -708,12 +711,12 @@
         }
       }
     }, 
-    "R5": {
+    "R2": {
       "footprint": "0805", 
       "layer": "top", 
       "location": [
         21.513446, 
-        -11.325387
+        -0.053531
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -727,12 +730,12 @@
         }
       }
     }, 
-    "R5b": {
+    "R2b": {
       "footprint": "resistor_th", 
       "layer": "top", 
       "location": [
         21.511665, 
-        -11.326925
+        -0.053531
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -741,7 +744,7 @@
         }
       }
     }, 
-    "R6": {
+    "R3": {
       "footprint": "0805", 
       "layer": "top", 
       "location": [
@@ -760,7 +763,7 @@
         }
       }
     }, 
-    "R6b": {
+    "R3b": {
       "footprint": "resistor_th", 
       "layer": "top", 
       "location": [
@@ -774,12 +777,12 @@
         }
       }
     }, 
-    "R8": {
+    "R4": {
       "footprint": "0805", 
       "layer": "top", 
       "location": [
         21.513446, 
-        -0.053531
+        -11.325387
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -793,12 +796,45 @@
         }
       }
     }, 
-    "R8b": {
+    "R4b": {
       "footprint": "resistor_th", 
       "layer": "top", 
       "location": [
         21.511665, 
-        -0.053531
+        -11.326925
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R5": {
+      "footprint": "0805", 
+      "layer": "top", 
+      "location": [
+        21.511665, 
+        -14.145795
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "font-size": "1.6", 
+          "location": [
+            -3.2, 
+            0.8
+          ], 
+          "show": true
+        }
+      }
+    }, 
+    "R5b": {
+      "footprint": "resistor_th", 
+      "layer": "top", 
+      "location": [
+        21.513446, 
+        -14.146674
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -846,20 +882,6 @@
           ], 
           "rotate": 180, 
           "show": true
-        }
-      }
-    }, 
-    "VReg": {
-      "footprint": "ST-PPAK", 
-      "layer": "bottom", 
-      "location": [
-        21.511665, 
-        -7.095762
-      ], 
-      "rotate": 180.0, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
         }
       }
     }, 
@@ -970,23 +992,10 @@
           "show": false
         }
       }
-    }, 
-    "selectorHole": {
-      "footprint": "selector-hole", 
-      "layer": "top", 
-      "location": [
-        -20.393062, 
-        3.906891
-      ], 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
     }
   }, 
   "config": {
-    "name": "compass", 
+    "name": "powerBoard", 
     "no-docs": false, 
     "no-drill-index": false, 
     "no-flashes": false, 
@@ -1020,13 +1029,13 @@
       "letter-spacing": "0mm", 
       "line-height": "1.5mm", 
       "location": [
-        -20.967776, 
-        -94.676725
+        -1.1255298, 
+        -75.796528
       ], 
       "rotate": 0, 
       "style": "fill", 
       "type": "text", 
-      "value": "Board details:\nName: powerBoard?\nRevision: first\nDescription: Putting some ideas down. A battery replacement board that can be powered from various sources. \nLicense: CERN Open Hardware Licence v1.2 \nDesign by: Kyle Jarvis"
+      "value": "Board details:\nName: powerBoard\nRevision: first\nDescription: A battery replacement board that can be powered from various sources. \nLicense: CERN Open Hardware Licence v1.2 \nDesign by: Saar Drimer, Kyle Jarvis"
     }, 
     "manufacturing": {
       "font-family": "Overlock-Regular-OTF-webfont", 
@@ -1034,8 +1043,8 @@
       "letter-spacing": "0mm", 
       "line-height": "1.5mm", 
       "location": [
-        -35.953549, 
-        -80.247165
+        -8.0541483, 
+        -60.164408
       ], 
       "rotate": 0, 
       "style": "fill", 
@@ -1048,8 +1057,8 @@
       "letter-spacing": "0mm", 
       "line-height": "1.2mm", 
       "location": [
-        -41.867853, 
-        -67.500816
+        -14.088708, 
+        -83.975892
       ], 
       "rotate": 0, 
       "style": "fill", 
@@ -1059,14 +1068,14 @@
   }, 
   "drill-index": {
     "location": [
-      52.423812, 
-      -5.4516062
+      -26.584405, 
+      -89.029547
     ]
   }, 
   "drills": {}, 
   "files": {
-    "routing_data": "cuttlefish_routing.json", 
-    "routing_svg": "cuttlefish.svg"
+    "routing_data": "powerBoard_routing.json", 
+    "routing_svg": "powerBoard.svg"
   }, 
   "gerber": {
     "decimals": 6, 
@@ -1155,6 +1164,15 @@
       ], 
       "show": true
     }, 
+    "COVER": {
+      "footprint": "silkscreen-cover", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "show": true
+    }, 
     "IN-SM": {
       "footprint": "in-contact-sm", 
       "layer": "top", 
@@ -1189,6 +1207,15 @@
         0
       ], 
       "show": false
+    }, 
+    "V-INF": {
+      "footprint": "voltage-info", 
+      "layer": "bottom", 
+      "location": [
+        21.511665, 
+        1.128889
+      ], 
+      "show": true
     }
   }, 
   "soldermask": {
