@@ -6,7 +6,7 @@
       "layout": 
       {
         "pad": "pin", 
-        "location": [-2.54,0.0]
+        "location": [-2.54,-0.127]
       }
     },
   "2":
@@ -22,7 +22,7 @@
       "layout": 
       {
         "pad": "pin", 
-        "location": [2.54, 0.0]
+        "location": [2.54, -0.127]
       }
     }
   },
