@@ -1,0 +1,24 @@
+{
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "layers": ["top"],
+          "font-family": "UbuntuMono-R-webfont", 
+          "location": [
+            0, 
+            0
+          ], 
+          "font-size": "2mm",
+          "rotate": 0,
+          "style": "fill", 
+          "type": "text", 
+          "value": "Input:\n2.6V-16V"
+        }
+      ]
+    }
+  }  
+}
