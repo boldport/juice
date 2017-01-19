@@ -995,7 +995,7 @@
     }
   }, 
   "config": {
-    "name": "powerBoard", 
+    "name": "juice", 
     "no-docs": false, 
     "no-drill-index": false, 
     "no-flashes": false, 
@@ -1035,7 +1035,7 @@
       "rotate": 0, 
       "style": "fill", 
       "type": "text", 
-      "value": "Board details:\nName: powerBoard\nRevision: first\nDescription: A battery replacement board that can be powered from various sources. \nLicense: CERN Open Hardware Licence v1.2 \nDesign by: Saar Drimer, Kyle Jarvis"
+      "value": "Board details:\nName: juice\nRevision: first\nDescription: A battery replacement board that can be powered from various sources. \nLicense: CERN Open Hardware Licence v1.2 \nDesign by: Saar Drimer, Kyle Jarvis"
     }, 
     "manufacturing": {
       "font-family": "Overlock-Regular-OTF-webfont", 
@@ -1074,8 +1074,8 @@
   }, 
   "drills": {}, 
   "files": {
-    "routing_data": "powerBoard_routing.json", 
-    "routing_svg": "powerBoard.svg"
+    "routing_data": "juice_routing.json", 
+    "routing_svg": "juice.svg"
   }, 
   "gerber": {
     "decimals": 6, 
