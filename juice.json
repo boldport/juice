@@ -659,25 +659,6 @@
         }
       }
     }, 
-    "R2": {
-      "footprint": "0805", 
-      "layer": "top", 
-      "location": [
-        -24.710868, 
-        -15.424999
-      ], 
-      "rotate": 0, 
-      "silkscreen": {
-        "refdef": {
-          "font-size": "1.6", 
-          "location": [
-            -3.2, 
-            0.8
-          ], 
-          "show": true
-        }
-      }
-    }, 
     "R1": {
       "footprint": "0805", 
       "layer": "top", 
@@ -708,6 +689,25 @@
       "silkscreen": {
         "refdef": {
           "show": false
+        }
+      }
+    }, 
+    "R2": {
+      "footprint": "0805", 
+      "layer": "top", 
+      "location": [
+        -24.710868, 
+        -15.424999
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "font-size": "1.6", 
+          "location": [
+            -3.2, 
+            0.8
+          ], 
+          "show": true
         }
       }
     }, 
