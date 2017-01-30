@@ -1125,6 +1125,24 @@
       "rotate": 0, 
       "show": true
     }, 
+    "BATT-POUR": {
+      "footprint": "battery-pour", 
+      "layer": "top", 
+      "location": [
+        -27.134571, 
+        28.798005
+      ], 
+      "show": true
+    }, 
+    "BODY-POUR": {
+      "footprint": "main-body-pour", 
+      "layer": "top", 
+      "location": [
+        -20.320001, 
+        -13.322343
+      ], 
+      "show": true
+    }, 
     "CHOOSE": {
       "footprint": "the-chooser", 
       "layer": "top", 
@@ -1151,7 +1169,7 @@
         0, 
         0
       ], 
-      "show": false
+      "show": true
     }, 
     "IN-SM": {
       "footprint": "in-contact-sm", 
