@@ -6,7 +6,7 @@
       "shapes":
       [
         {
-          "layers": ["top"],
+          "layers": ["top","bottom"],
           "font-family": "UbuntuMono-R-webfont", 
           "location": [
             0, 
